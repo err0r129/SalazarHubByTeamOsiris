@@ -1,7 +1,7 @@
 --Capivara
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Salazar Hub 0.0.2", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest",  IntroEnabled = true})
+local Window = OrionLib:MakeWindow({Name = "Salazar Hub 0.0.3", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest",  IntroEnabled = false})
 local Tab = Window:MakeTab({
 	Name = "Avatar",
 	Icon = "rbxassetid://7743876054",
